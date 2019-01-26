@@ -290,3 +290,8 @@ Attempts: 0
 ```
 
 If you happen to find any inconsistencies or issues with the parser or output, please open an issue on the [GitHub repo](https://github.com/RaghavSood/bitpeers).
+
+Extract it with regex last one is port
+```
+([0-9]{1,3}[\.]){3}[0-9]{1,3}:[0-9]{5}
+```
